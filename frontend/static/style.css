@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #76bcdf, #dc7198);
+    height: 100vh;
+    margin: 0;
+    display: flex;  /*used to center the card*/
+    justify-content: center; /*used to center*/
+    align-items: center;    /*used to center*/
+    color: white;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#animalContainer{
+    display: none;
+}
+
+svg{
+    width: 100%;
+    height: auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: rgb(92, 182, 227);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; /* changes mouse arrow to hand to indicate its clickable */
+    color: white;
+}
+
+button:hover {              /*psuedo class always after the element its applied to */
+    background: rgb(150, 197, 230);  /*psuedo class for hover effect*/
+}
+
+#result { /* #used for id selectiom*/
+    margin-top: 15px;
+    font-size: 18px;
+}
