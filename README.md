@@ -42,9 +42,8 @@ spirit-animal-app/
 
 ## 🚀 Live Demo
 
-* **Frontend (Netlify):** https://<your-netlify-url>
-* **Backend (Render):** https://<your-render-url>
-* **API Docs:** https://<your-render-url>/docs
+Here is my application link 
+https://tiny-kringle-01bb92.netlify.app/
 
 ---
 
